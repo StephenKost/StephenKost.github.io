@@ -35,7 +35,7 @@ var init = function (window) {
         var loopsCompleted = 0;
         for (var loopsCompleted = 0; loopsCompleted < 100; 
         loopsCompleted++) {
-            drawCircle(canvas, true, true, "#999", 80);
+            drawCircle(canvas, true, false, "#999", 80);
         } 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
