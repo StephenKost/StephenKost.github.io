@@ -33,7 +33,7 @@ var init = function (window) {
        }
         // TODO 3 / 7 : Call the drawCircle() function 
         var loopsCompleted = 0;
-        for (var loopsCompleted = 0; loopsCompleted < 40000; 
+        for (var loopsCompleted = 0; loopsCompleted < 100; 
         loopsCompleted++) {
             drawCircle(canvas, true, false, "#999", 80);
         } 
@@ -54,7 +54,7 @@ var init = function (window) {
             //Deleted because they were itterated
 
             // TODO 9 : Iterate over the array
-            for (var i = 0; i < 40000; 
+            for (var i = 0; i < 100; 
                 i++) {
                     physikz.updatePosition(circles[i]);
                     game.checkCirclePosition(circles[i]);
